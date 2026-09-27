@@ -41,4 +41,4 @@ if __name__ == "__main__":
     RAW_PATH = "../data/data.csv"
     raw_df = load_raw_data(RAW_PATH)
     clean_df = clean_raw_data(raw_df)
-    print(f"✓ Data Pipeline Test Successful! Cleaned shape: {clean_df.shape}")
+    print(f"Data Pipeline Test Successful! Cleaned shape: {clean_df.shape}")

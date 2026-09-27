@@ -100,6 +100,6 @@ if __name__ == "__main__":
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     processed_df.to_csv(OUTPUT_PATH, index=False)
     
-    print(f"✓ Feature Pipeline Test Successful!")
+    print(f"Feature Pipeline Test Successful!")
     print(f"Processed shape: {processed_df.shape[0]} rows, {processed_df.shape[1]} columns")
     print(f"Saved processed dataset to: {OUTPUT_PATH}")
